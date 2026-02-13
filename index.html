@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swapnil Roy | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<!-- NAVBAR -->
+<nav class="bg-white shadow-md fixed w-full z-10">
+  <div class="container mx-auto flex justify-between items-center p-4">
+    <h1 class="text-xl font-bold">Swapnil Roy</h1>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex space-x-6 font-medium">
+      <li><a href="#about" class="hover:text-blue-600">About</a></li>
+      <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+      <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+      <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Button -->
+    <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pb-4">
+    <a href="#about" class="block py-2">About</a>
+    <a href="#projects" class="block py-2">Projects</a>
+    <a href="#skills" class="block py-2">Skills</a>
+    <a href="#contact" class="block py-2">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+  <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center px-6">
+
+    <div>
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Swapnil Roy</h2>
+      <h3 class="text-xl mb-4">CSE Student & Web Developer</h3>
+      <p class="mb-6">I build responsive and modern web applications using HTML, CSS, JavaScript and Tailwind CSS.</p>
+
+      <a href="images/Beige and White Minimalist Resume A4.pdf" target="_blank" download class="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold shadow hover:bg-gray-200">
+        Download Resume
+      </a>
+
+      <div class="flex space-x-4 mt-6 text-2xl">
+        <a href="https://github.com/swapnilroydip-bit" target="_blank" class="hover:text-gray-300">GitHub</a>
+        <a href="www.linkedin.com/in/swapnil-roy-13a772384" target="_blank" class="hover:text-gray-300">LinkedIn</a>
+        <a href="https://www.facebook.com/swapnil.roy.131641" target="_blank" class="hover:text-gray-300">facebook</a>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="images/profile.jpg" alt="Profile"
+        class="w-64 h-64 rounded-full object-cover border-4 border-white shadow-lg">
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="py-16 bg-white">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">About Me</h2>
+
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <p class="mb-4">
+          I am a passionate Computer Science student who loves building websites and learning new technologies.
+        </p>
+
+        <h3 class="font-semibold text-xl mt-6 mb-2">Education</h3>
+        <div class="bg-gray-100 p-4 rounded-lg shadow">
+          <p>BSc in Computer Science & Engineering</p>
+          <p>2023 - Present</p>
+        </div>
+
+        <h3 class="font-semibold text-xl mt-6 mb-2">Interests</h3>
+        <ul class="list-disc ml-6">
+          <li>Web Development</li>
+          <li>Competitive Programming</li>
+          <li>Gym & Fitness</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-xl mb-4">Journey Timeline</h3>
+        <div class="space-y-4">
+          <div class="bg-blue-100 p-4 rounded-lg shadow">
+            Started learning HTML & CSS
+          </div>
+          <div class="bg-blue-100 p-4 rounded-lg shadow">
+            Built first portfolio website
+          </div>
+          <div class="bg-blue-100 p-4 rounded-lg shadow">
+            Learning Full Stack Development
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="py-16 bg-gray-100">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">My Projects</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition">
+        <img src="images/project1.jpg" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-xl mb-2">CodeCamp course</h3>
+          <p class="text-sm mb-3">A responsive online shopping website.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="bg-blue-200 px-2 py-1 rounded text-xs">HTML</span>
+            <span class="bg-green-200 px-2 py-1 rounded text-xs">CSS</span>
+          </div>
+          <div class="flex justify-between">
+            <a href="https://github.com/swapnilroydip-bit/Project-1" target="_blank" class="text-blue-600 font-semibold">GitHub</a>
+            <a href="https://swapnilroydip-bit.github.io/Project-1/" target="_blank" class="text-green-600 font-semibold">Live Demo</a>
+          </div>
+        </div>
+      </div>
+       <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition">
+        <img src="images/project3.jpg" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-xl mb-2">Personal Portfolio</h3>
+          <p class="text-sm mb-3">A responsive online shopping website.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="bg-blue-200 px-2 py-1 rounded text-xs">HTML</span>
+            <span class="bg-green-200 px-2 py-1 rounded text-xs">CSS</span>
+          </div>
+          <div class="flex justify-between">
+            <a href="https://github.com/swapnilroydip-bit/FIRST-repo" target="_blank" class="text-blue-600 font-semibold">GitHub</a>
+            <a href="https://swapnilroydip-bit.github.io/FIRST-repo/" target="_blank" class="text-green-600 font-semibold">Live Demo</a>
+          </div>
+        </div>
+      </div>
+       <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition">
+        <img src="images/project2.jpg" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-xl mb-2">E-commerce Website</h3>
+          <p class="text-sm mb-3">A responsive online shopping website.</p>
+          <div class="flex flex-wrap gap-2 mb-3">
+            <span class="bg-blue-200 px-2 py-1 rounded text-xs">HTML</span>
+            <span class="bg-green-200 px-2 py-1 rounded text-xs">CSS</span>
+          </div>
+          <div class="flex justify-between">
+            <a href="#" class="text-blue-600 font-semibold">GitHub</a>
+            <a href="#" class="text-green-600 font-semibold">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      
+
+    
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="py-16 bg-white">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div>
+        <h3 class="font-semibold mb-4">Frontend</h3>
+        <p>HTML</p>
+        <div class="w-full bg-gray-200 rounded-full h-3 mb-3">
+          <div class="bg-blue-600 h-3 rounded-full w-6/6"></div>
+        </div>
+
+        <p>CSS</p>
+        <div class="w-full bg-gray-200 rounded-full h-3 mb-3">
+          <div class="bg-blue-600 h-3 rounded-full w-4/5"></div>
+        </div>
+         <p>JavaScript</p>
+        <div class="w-full bg-gray-200 rounded-full h-3 mb-3">
+          <div class="bg-blue-600 h-3 rounded-full w-2/5"></div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-4">Backend</h3>
+        <p>Node.js</p>
+        <div class="w-full bg-gray-200 rounded-full h-3 mb-3">
+          <div class="bg-green-600 h-3 rounded-full w-2/5"></div>
+        </div>
+        <p>python</p>
+        <div class="w-full bg-gray-200 rounded-full h-3 mb-3">
+          <div class="bg-green-600 h-3 rounded-full w-1/5"></div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-4">Tools</h3>
+        <p>Git</p>
+        <div class="w-full bg-gray-200 rounded-full h-3 mb-3">
+          <div class="bg-purple-600 h-3 rounded-full w-4/5"></div>
+        </div>
+        <p>VS code</p>
+        <div class="w-full bg-gray-200 rounded-full h-3 mb-3">
+          <div class="bg-purple-600 h-3 rounded-full w-5/5"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-16 bg-gray-100">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Contact Me</h2>
+
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <form class="bg-white p-6 rounded-lg shadow">
+        <input type="text" placeholder="Your Name"
+          class="w-full mb-4 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+        <input type="email" placeholder="Your Email"
+          class="w-full mb-4 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+        <textarea placeholder="Your Message"
+          class="w-full mb-4 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+
+        <button type="submit"
+          class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+          Submit
+        </button>
+      </form>
+
+      <div>
+        <p><strong>Email:</strong> <a href="mailto:swapnilroydip@gmail.com">swapnilroydip@gmail.com</a></p>
+        <p><strong>Location:</strong>Dhanmondi, Dhaka, Bangladesh</p>
+        <p><strong>Status:</strong> Available on FB</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-800 text-white text-center p-4">
+  © 2026 Swapnil Roy | All Rights Reserved
+</footer>
+
+<script>
+  const btn = document.getElementById("menu-btn");
+  const menu = document.getElementById("mobile-menu");
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>
+
+</body>
+</html>
+
